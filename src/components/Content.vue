@@ -9,7 +9,7 @@
               <h1>Selamat datang di website <span>Gobey</span></h1>
               <h2>Sekelompok manusia dengan pemikiran diatas manusia lainnya</h2>
               <div class="text-center text-lg-left">
-                <a href="#about" class="btn-get-started scrollto">Mulai</a>
+                <a href="#tentang" class="btn-get-started scrollto">Mulai</a>
               </div>
             </div>
           </div>
@@ -236,7 +236,7 @@
                 <div class="member-info">
                   <h4>{{ member.nama }}</h4>
                   <div class="social">
-                    <a :href="member.sosmed" target="_blank" :title="member.nama"><i class="icofont-facebook"></i></a>
+                    <a :href="member.facebook" target="_blank" :title="member.nama"><i class="icofont-facebook"></i></a>
                     <a :href="member.instagram" target="_blank" :title="member.nama"><i
                         class="icofont-instagram"></i></a>
                   </div>
